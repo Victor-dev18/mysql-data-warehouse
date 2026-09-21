@@ -362,6 +362,7 @@ feat: implement bronze data loading
 test: validate bronze data completeness
 docs: document bronze layer
 ```
+--- 
 
 ## 13. Project Assumptions
 
@@ -376,6 +377,7 @@ CRM and ERP identifiers may use different formats and therefore require analysis
 The Gold layer will be designed for analytical workloads rather than operational transaction processing.
 Power BI will consume the business-ready Gold-layer data for reporting and visualization.
 
+---
 
 ## 14. Project Success Criteria
 
