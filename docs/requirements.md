@@ -368,14 +368,14 @@ docs: document bronze layer
 
 The following assumptions apply to the initial implementation:
 
-The provided CSV files represent extracts from the CRM and ERP source systems.
-The source files are treated as the initial source-of-truth inputs for this project.
-The project uses batch processing rather than real-time streaming.
-MySQL is the target database platform.
-Source data may contain quality issues and inconsistencies that must be identified during analysis and processing.
-CRM and ERP identifiers may use different formats and therefore require analysis before integration.
-The Gold layer will be designed for analytical workloads rather than operational transaction processing.
-Power BI will consume the business-ready Gold-layer data for reporting and visualization.
+- The provided CSV files represent extracts from the CRM and ERP source systems.
+- The source files are treated as the initial source-of-truth inputs for this project.
+- The project uses batch processing rather than real-time streaming.
+- MySQL is the target database platform.
+- Source data may contain quality issues and inconsistencies that must be identified during analysis and processing.
+- CRM and ERP identifiers may use different formats and therefore require analysis before integration.
+- The Gold layer will be designed for analytical workloads rather than operational transaction processing.
+- Power BI will consume the business-ready Gold-layer data for reporting and visualization.
 
 ---
 
@@ -383,15 +383,15 @@ Power BI will consume the business-ready Gold-layer data for reporting and visua
 
 The project will be considered complete when:
 
-All six source datasets are successfully ingested.
-Bronze tables preserve the source data appropriately.
-Silver tables contain cleaned and standardized data.
-CRM and ERP data are successfully integrated.
-Gold dimensions and fact tables are implemented.
-The Gold layer follows the intended analytical model.
-Data quality checks are implemented and documented.
-The warehouse can support meaningful analytical SQL queries.
-Power BI can consume the Gold-layer data.
-Architecture and data-flow documentation is complete.
-The project has a clear Git history.
-The complete implementation is documented in the GitHub repository.
+- All six source datasets are successfully ingested.
+- Bronze tables preserve the source data appropriately.
+- Silver tables contain cleaned and standardized data.
+- CRM and ERP data are successfully integrated.
+- Gold dimensions and fact tables are implemented.
+- The Gold layer follows the intended analytical model.
+- Data quality checks are implemented and documented.
+- The warehouse can support meaningful analytical SQL queries.
+- Power BI can consume the Gold-layer data.
+- Architecture and data-flow documentation is complete.
+- The project has a clear Git history.
+- The complete implementation is documented in the GitHub repository.
