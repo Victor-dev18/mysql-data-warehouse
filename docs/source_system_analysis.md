@@ -1508,4 +1508,4 @@ Git Commit
 
 No cleansing or business transformation should be performed during Bronze loading.
 
-```
+
