@@ -1,5 +1,5 @@
 
-# MySQL Data Warehouse
+# <img src="https://cdn.simpleicons.org/mysql/4479A1" width="32" height="32" alt="MySQL"> MySQL Data Warehouse 🏭
 
 A complete end-to-end **MySQL Data Warehouse** built using the Medallion Architecture — Bronze, Silver, and Gold — with CRM and ERP source data integrated into a business-ready Sales Star Schema.
 
