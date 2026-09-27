@@ -526,7 +526,11 @@ The MIT License permits the use, modification, and distribution of this project,
 
 ---
 
-## 👨‍💻 About Me
+## About Me
+
+<img src="https://drive.google.com/uc?export=view&id=1---cxpelF73YmdIHgqwCVGhuvJDirZqM"
+     width="180"
+     alt="Coding Avatar">
 
 I'm **Victor Devanand Kongala**, an Electronics and Communication Engineering undergraduate at **SRM Institute of Science and Technology**, graduating in 2027.
 
